@@ -6,3 +6,10 @@ ENV для бэка:
 PORT=4444
 CLIENT_URL=http://localhost:3000
 ```
+
+сначала запускаем бэк:
+cd/api
+npm start
+
+потом фронт:
+в корне проекта пишем - npm start
