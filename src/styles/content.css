@@ -1,0 +1,49 @@
+.content {
+  width: 100%;
+}
+
+.content__main {
+  background: #fff;
+  padding: 15px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  margin-bottom: 15px;
+}
+
+.content__main-top h1,h2 {
+  margin: 0;
+  text-align: center;
+}
+
+.expires_at {
+  color: rgb(38, 136, 197);
+  text-align: right;
+}
+
+.expires_at span {
+  color: black;
+  text-align: right;
+}
+
+.content-info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-info > div {
+  width: 40%;
+  border-bottom: 1px solid rgba(34, 60, 80, 0.2);
+  padding: 15px;
+}
+
+.content-info > div {
+  display: flex;
+  flex-direction: column;
+  color: rgb(38, 136, 197);
+  gap: 5px;
+}
+
+.content-info > div span {
+  color: black;
+}

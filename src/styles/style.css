@@ -1,0 +1,108 @@
+@import url('./normalize.css');
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+body {
+  background: rgb(241, 238, 238);
+}
+
+.btn {
+  padding: 8px 15px;
+  display: block;
+  text-decoration: none;
+  color: rgb(38, 136, 197);
+  border: 1px solid rgb(38, 136, 197);
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background: rgb(38, 136, 197);
+  color: white;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox label {
+  color: rgb(38, 136, 197);
+}
+
+hr {
+  border-color: rgb(138, 187, 218);
+}
+
+.input-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-text,.input-date label {
+  color: rgb(38, 136, 197);
+  font-weight: 700;
+}
+
+.with-date {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.with-date div {
+  width: 49%;
+}
+
+.input-date {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-text,.input-date {
+  margin-bottom: 15px;
+}
+
+.home {
+  display: flex;
+  gap: 30px;
+}
+
+@import url('./header.css');
+@import url('./nav-btns.css');
+@import url('./document-form.css');
+@import url('./sidebar.css');
+@import url('./documents.css');
+@import url('./content.css');
+
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

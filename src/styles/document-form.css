@@ -1,0 +1,15 @@
+.document-form {
+  background: #fff;
+  padding: 15px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.document-form__header-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.document-form__main > div{
+  display: flex;
+}

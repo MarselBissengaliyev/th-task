@@ -1,0 +1,14 @@
+.nav-btns {
+  background: #fff;
+  padding: 15px;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.nav-btns > div {
+  display: flex;
+  gap: 15px;
+}

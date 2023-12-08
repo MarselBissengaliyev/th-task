@@ -1,0 +1,38 @@
+.sidebar {
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  width: 35%;
+}
+
+.sidebar h1 {
+  font-size: 28px;
+  font-weight: 400;
+  padding: 0 30px;
+  padding-top: 15px;
+}
+
+.search {
+  background: #fff;
+  padding: 15px 30px;
+}
+
+.search input {
+  width: 100%;
+  border: 1px solid rgba(34, 60, 80, 0.2);
+  padding: 8px 15px;
+  border-radius: 8px;
+}
+
+.filter {
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filter > div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 700;
+  color: rgb(38, 136, 197);
+}
